@@ -80,7 +80,7 @@ always @(posedge clk or negedge rst_n) begin
                 end
             end
         end 
-        else begin // FIX 2: Yeh else block missing tha!
+        else begin 
             clk_count <= clk_count + 1; 
         end
      end
